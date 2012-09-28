@@ -81,7 +81,6 @@
 		CCC24EBE0A13E34D00A6D3E3 /* fmdb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = fmdb.m; path = src/fmdb.m; sourceTree = "<group>"; };
 		CCC24EBF0A13E34D00A6D3E3 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/FMResultSet.h; sourceTree = "<group>"; };
 		CCC24EC00A13E34D00A6D3E3 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/FMResultSet.m; sourceTree = "<group>"; };
-		ED36693516154347006917DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ED3669551615435A006917DD /* libFMDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFMDB.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE4290EF12B42F870088BD94 /* libFMDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFMDB.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE42910C12B42FFA0088BD94 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
@@ -131,8 +130,6 @@
 				08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */,
 				ED36693416154347006917DD /* Frameworks */,
 				1AB674ADFE9D54B511CA2CBB /* Products */,
-				EE42910C12B42FFA0088BD94 /* libsqlite3.dylib */,
-				EE42910E12B430070088BD94 /* Foundation.framework */,
 			);
 			name = fmdb;
 			sourceTree = "<group>";
@@ -187,7 +184,8 @@
 		ED36693416154347006917DD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				ED36693516154347006917DD /* Foundation.framework */,
+				EE42910C12B42FFA0088BD94 /* libsqlite3.dylib */,
+				EE42910E12B430070088BD94 /* Foundation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
